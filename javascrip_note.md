@@ -79,7 +79,7 @@ var marks = 32;
 ```javascript
         var i;
         for (i = 0; i < 4; i++) {
-            document.write(i + "<button>submit</button> <br/>");
+            document.write(i + "<button>For Loop</button> <br/>");
         }
 
 
@@ -87,9 +87,16 @@ var marks = 32;
 
         var i = 0;
         while (i < 3) {
-            document.write(i + "<button>submit</button> <br/>");
+            document.write(i + "<button>While Loop</button> <br/>");
             i++;
         }
+
+    _______________________________________________________________________________________
+        var i = 0;
+        do{
+            document.write(i + "<button>Do while Loop</button> <br/>");
+            i++;
+        }while(i<3)
 ``` 
 
 ## Here (===) is equal because checks for  value and data type
