@@ -65,8 +65,11 @@ var marks = 32;
     var i;
     for(i=0; i<10; i= i+1 ){
                                                                    
-        if(i==5){
+        if(i==3 || i==5){
             continue
+        }
+        else if (i==9){
+            break;
         }
         document.write( i+ "<button>submit</button> <br/>");
     }
