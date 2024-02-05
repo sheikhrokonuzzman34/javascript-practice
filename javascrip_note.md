@@ -144,6 +144,18 @@ function addNumber(x, y,z) {
 
 ```
 
+## Using Returen function
+
+```javascript
+
+function addNumber(x, y, z) {
+    return x + y + z;
+    }
+    
+    var result = addNumber(10, 15, 7) + 100;  
+    document.write(result);
+```
+
 
 
 
