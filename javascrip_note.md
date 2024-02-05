@@ -50,7 +50,7 @@ var marks = 32;
 ```
 
 
-## Using a for lop:
+## Using a for loop:
 
 ```javascript
 
@@ -59,7 +59,7 @@ var marks = 32;
         document.write( i+ "<button>submit</button> <br/>");
     }
 ```
-## using a for lop Break Continue:
+## using a for loop Break Continue:
 
 ```javascript
     var i;
@@ -74,6 +74,24 @@ var marks = 32;
         document.write( i+ "<button>submit</button> <br/>");
     }
 ```
+## for loop vs while loop
+
+```javascript
+        var i;
+        for (i = 0; i < 4; i++) {
+            document.write(i + "<button>submit</button> <br/>");
+        }
+
+
+        ________________________________________________________________________________
+
+        var i = 0;
+        while (i < 3) {
+            document.write(i + "<button>submit</button> <br/>");
+            i++;
+        }
+``` 
+
 ## Here (===) is equal because checks for  value and data type
 ## Here (==) is equal  checks for only value 
 ```javascript
