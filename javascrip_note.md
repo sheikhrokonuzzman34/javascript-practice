@@ -111,3 +111,39 @@ if(i===5){
     }  
 ```
 
+
+## Using function 
+
+```javascript
+ function addNumber() {
+    var x = 10;
+    var y = 10;
+    var z = 10;
+  
+    var sum = x + y + z;
+    document.write(sum); 
+  }
+  
+  // Call the function once:
+  addNumber();
+```
+
+
+## Using function parameter 
+
+```javascript
+
+function addNumber(x, y,z) {
+  
+    var sum = x + y + z;
+    document.write(sum); 
+  }
+  
+  // Call the function once:
+  addNumber(10,15,7);
+
+```
+
+
+
+
