@@ -187,6 +187,17 @@ document.write(person.lastName);
 
 ```
 
+## Using JavaScript Array  in for looping
+
+```javascript
+        var myArray = [10, "hello", true, [1, 2, 3]];
+         
+        var i;
+        for (i = 0; i <myArray.length; i++) {
+            document.write(myArray[i]+"<br/>");
+        }
+```
+
 
 
 

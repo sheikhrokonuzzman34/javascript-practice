@@ -10,9 +10,12 @@
     
     <script>
 
-       var myArray = [10, "hello", true, { name: "Alice" }, [1, 2, 3]];
+       var myArray = [10, "hello", true, [1, 2, 3]];
          
-        document.write(myArray[3].name);
+        var i;
+        for (i = 0; i <myArray.length; i++) {
+            document.write(myArray[i]+"<br/>");
+        }
   
     </script>
 </body>
