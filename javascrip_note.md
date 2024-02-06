@@ -171,7 +171,19 @@ const person = {
 };
 
 document.write(person ["firstName"]);
+// or
+document.write(person.lastName);
 
+
+```
+
+## Using JavaScript Array
+## javascript array type in Python  list type same 
+
+```javascript
+    var myArray = [10, "hello", true, { name: "Alice" }, [1, 2, 3]];
+     // Access the name property directly within the object   
+    document.write(myArray[3].name);
 
 ```
 
