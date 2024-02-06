@@ -157,5 +157,24 @@ function addNumber(x, y, z) {
 ```
 
 
+## Using JavaScript Object
+
+## Dictionaries data type in Python programming language and object data type in JavaScript are same
+
+```javascript
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+document.write(person ["firstName"]);
+
+
+```
+
+
 
 
