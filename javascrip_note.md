@@ -198,6 +198,58 @@ document.write(person.lastName);
         }
 ```
 
+## Using JavaScript Array in foring loop
+
+```javascript
+        var myArray = [10, "hello", true, [1, 2, 3]];
+         
+        for(var item in myArray) {
+            document.write(myArray[item] + "<br/>");
+        }
+```
+## python list and javascript arrays for looping & foring loop same only send text different
+```python
+mylist = [10, "hello", True, [1, 2, 3]]
+
+for item in mylist:
+    print(item)
+
+```
+
+## Using JavaScript Object in foring loop
+
+```javascript
+        var person = {
+                    firstName: "John",
+                    lastName: "Doe",
+                    age: 30,
+                };
+          
+          for (const key in person) {
+            var value = person[key];
+            document.write(person[key] + '<br>');
+          }
+```
+## python dict and javascript object for looping & foring loop same only send text different
+
+
+```py
+fruits = {"apple": 1, "banana": 2, "orange": 3}
+
+for key in fruits:
+  value = fruits[key]
+  print(f"{key}: {value}")
+```
+
+## javascript string teke array conbart
+
+```javascript
+        var title = 'lorem ipsum dolor sit am'
+        var titlearray = Array.from(title);
+
+        document.write(titlearray[6])
+```
+
 
 
 
