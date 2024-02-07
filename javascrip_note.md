@@ -250,6 +250,18 @@ for key in fruits:
         document.write(titlearray[6])
 ```
 
+## javascript array filter used
+
+```javascript
+        var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+       var result = numberarry.filter(function(item){
+          return item > 50
+        });
+
+        document.write(result);
+```
+
 
 
 
