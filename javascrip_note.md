@@ -309,6 +309,15 @@ for key in fruits:
       result=numberarry.indexOf(60);
        document.write(result);   
 ```
+## Array Pop Push Reverse
+```javascript
+
+var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+      result=numberarry.Pop(60);
+       document.write(result);
+
+```
 
 
 
