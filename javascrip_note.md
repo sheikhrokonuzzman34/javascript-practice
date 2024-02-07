@@ -318,6 +318,17 @@ var numberarry = [10,20,30,40,50,60,70,80,100,]
        document.write(result);
 
 ```
+## Array slice,sort  method used
+```javascript
+
+    var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+      result=numberarry.slice(0,5);
+      result1=numberarry.slice().reverse();
+       document.write(result,'<br>');
+       document.write(result1);
+
+```
 
 
 
