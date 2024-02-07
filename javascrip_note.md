@@ -262,6 +262,39 @@ for key in fruits:
         document.write(result);
 ```
 
+## javascript array find method used
+## find method jader sathe match kore teder mode sorbo nimno index print kore
+## findIndex method jader sathe match kore teder mode sorbo nimno index print kore
+
+```javascript
+
+    var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+       var result1 = numberarry.find(function(item){
+          return item > 50
+        });
+       var result2 = numberarry.findIndex(function(item){
+          return item < 50
+        });
+
+        document.write(result1);
+        document.write(result2);
+
+```
+
+## javscript forEach method for loop ar moti kaj kore
+
+```javascript
+
+    var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+    numberarry.forEach(function(item){
+       document.write(item + '<br/>');
+         
+       });
+
+```
+
 
 
 
