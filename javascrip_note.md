@@ -295,6 +295,21 @@ for key in fruits:
 
 ```
 
+## javscript include method array vitor oi velo ache ki na check kore
+## javscript indexOf method array vitor oi velo thakle tar index return kor be na pele -1 returen kore
+
+```javascript
+    var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+      result=numberarry.includes(60);
+       document.write(result);
+
+    var numberarry = [10,20,30,40,50,60,70,80,100,]
+
+      result=numberarry.indexOf(60);
+       document.write(result);   
+```
+
 
 
 
