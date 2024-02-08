@@ -8,37 +8,25 @@
 <body>
     <p>Lorem ipsum dolor sit amet consectetur jjjjj adipisicing elit. Quia nam corrupti laborum quidem ipsum sunt tenetur pariatur nemo nisi? At.</p>
 
-    <button onclick="objectalert()" >alert</button>
-    <button onclick="objectonfirm()" >confirm</button>
-    <button onclick="objectonfirm()" >prompt</button>
-    <button onclick="objectopen()" >open</button>
-    <button onclick="objectclose()" >close</button>
+
     
     <script>
-      function objectalert() {
-        alert(" Save Success ");
-      }
-      // confirm method true or false returns kore
-      function objectonfirm() {
-       let result = confirm(" Do you want to Delete");
-       document.write(result);
-      }
+      
+     var appcodename = navigator.appCodeName;
+     var appname = navigator.appName;
+     var appversion = navigator.appVersion;
+     var cookieEnabled = navigator.cookieEnabled;
+     var language = navigator.language;
+     var userAgent = navigator.userAgent;
+     var platform = navigator.platform;
 
-      // prompt method user input nite pare
-      function objectonfirm() {
-       let result = prompt("Write Your Name");
-       document.write(result);
-      }
-
-      function objectopen() {
-        open()
-      }
-      // current tap close hoye jabe close method 
-      function objectclose() {
-        close()
-      }
-     
-  
+     document.write(appcodename + '<br/>')
+     document.write(appname + '<br/>')
+     document.write(appversion + '<br/>')
+     document.write(cookieEnabled + '<br/>')
+     document.write(language + '<br/>')
+     document.write(userAgent + '<br/>')
+     document.write(platform + '<br/>')
     </script>
 </body>
 </html>

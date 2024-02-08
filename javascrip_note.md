@@ -340,6 +340,46 @@ var numberarry = [10,20,30,40,50,60,70,80,100,]
       document.write(numberarry); 
 ```
 
+## using window methods
+
+```html
+    <button onclick="objectalert()" >alert</button>
+    <button onclick="objectonfirm()" >confirm</button>
+    <button onclick="objectonfirm()" >prompt</button>
+    <button onclick="objectopen()" >open</button>
+    <button onclick="objectclose()" >close</button>
+```
+
+```javascript
+
+    <script>
+      function objectalert() {
+        alert(" Save Success ");
+      }
+      // confirm method true or false returns kore
+      function objectonfirm() {
+       let result = confirm(" Do you want to Delete");
+       document.write(result);
+      }
+
+      // prompt method user input nite pare
+      function objectonfirm() {
+       let result = prompt("Write Your Name");
+       document.write(result);
+      }
+
+      function objectopen() {
+        open()
+      }
+      // current tap close hoye jabe close method 
+      function objectclose() {
+        close()
+      }
+     
+  
+    </script>
+```
+
 
 
 
