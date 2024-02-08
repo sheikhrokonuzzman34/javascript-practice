@@ -381,5 +381,28 @@ var numberarry = [10,20,30,40,50,60,70,80,100,]
 ```
 
 
+## used natively methods
+
+```javascript
+
+    var appcodename = navigator.appCodeName;
+     var appname = navigator.appName;
+     var appversion = navigator.appVersion;
+     var cookieEnabled = navigator.cookieEnabled;
+     var language = navigator.language;
+     var userAgent = navigator.userAgent;
+     var platform = navigator.platform;
+
+     document.write(appcodename + '<br/>')
+     document.write(appname + '<br/>')
+     document.write(appversion + '<br/>')
+     document.write(cookieEnabled + '<br/>')
+     document.write(language + '<br/>')
+     document.write(userAgent + '<br/>')
+     document.write(platform + '<br/>')
+
+```
+
+
 
 
