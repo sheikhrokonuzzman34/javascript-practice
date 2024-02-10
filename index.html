@@ -8,25 +8,15 @@
 <body>
     <p>Lorem ipsum dolor sit amet consectetur jjjjj adipisicing elit. Quia nam corrupti laborum quidem ipsum sunt tenetur pariatur nemo nisi? At.</p>
 
+    <button onclick="myFunction('click hoyce')" >onclick</button>
+    <button onmouseover="myFunction('onclick')" >onmouseover</button>
+    <button onmouseout="myFunction('onmouseout')" >onmouseout</button>
 
     
     <script>
       
-     var appcodename = navigator.appCodeName;
-     var appname = navigator.appName;
-     var appversion = navigator.appVersion;
-     var cookieEnabled = navigator.cookieEnabled;
-     var language = navigator.language;
-     var userAgent = navigator.userAgent;
-     var platform = navigator.platform;
-
-     document.write(appcodename + '<br/>')
-     document.write(appname + '<br/>')
-     document.write(appversion + '<br/>')
-     document.write(cookieEnabled + '<br/>')
-     document.write(language + '<br/>')
-     document.write(userAgent + '<br/>')
-     document.write(platform + '<br/>')
+     function myFunction(msg) {
+        console.log(msg);}
     </script>
 </body>
 </html>
