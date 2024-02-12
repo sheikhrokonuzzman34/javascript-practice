@@ -403,6 +403,29 @@ var numberarry = [10,20,30,40,50,60,70,80,100,]
 
 ```
 
+## Used window methods
+
+```html
+<button onclick="myFunction('click hoyce')" >onclick</button>
+    <button onmouseover="myFunction('onclick')" >onmouseover</button>
+    <button onmouseout="myFunction('onmouseout')" >onmouseout</button> <br> <br>
+
+
+    <input onchange="myFunction('onchange')" >onchange <br/>
+    <input onkeydown="myFunction('onkeydown')" >onkeydown <br/>
+    <input onkeyup="myFunction('onkeyup')" >onkeyup <br/>
+
+
+
+
+    
+    <script>
+      
+     function myFunction(msg) {
+        console.log(msg);}
+    </script>
+```
+
 
 
 
